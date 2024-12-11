@@ -1,0 +1,49 @@
+2024-12-12T04:00:31.639+05:30  INFO 203834 --- [event-ticketing-system] [restartedMain] n.t.e.EventTicketingSystemApplication    : Starting EventTicketingSystemApplication using Java 17.0.13 with PID 203834 (/home/sithmal/Desktop/coursework/event-ticketing-system/target/classes started by sithmal in /home/sithmal/Desktop/coursework/event-ticketing-system)
+2024-12-12T04:00:31.641+05:30 DEBUG 203834 --- [event-ticketing-system] [restartedMain] n.t.e.EventTicketingSystemApplication    : Running with Spring Boot v3.4.0, Spring v6.2.0
+2024-12-12T04:00:31.643+05:30  INFO 203834 --- [event-ticketing-system] [restartedMain] n.t.e.EventTicketingSystemApplication    : No active profile set, falling back to 1 default profile: "default"
+2024-12-12T04:00:31.695+05:30  INFO 203834 --- [event-ticketing-system] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-12-12T04:00:31.696+05:30  INFO 203834 --- [event-ticketing-system] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-12-12T04:00:32.183+05:30  INFO 203834 --- [event-ticketing-system] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-12-12T04:00:32.220+05:30  INFO 203834 --- [event-ticketing-system] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 30 ms. Found 1 JPA repository interface.
+2024-12-12T04:00:32.564+05:30  INFO 203834 --- [event-ticketing-system] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-12-12T04:00:32.571+05:30  INFO 203834 --- [event-ticketing-system] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-12-12T04:00:32.572+05:30  INFO 203834 --- [event-ticketing-system] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.33]
+2024-12-12T04:00:32.596+05:30  INFO 203834 --- [event-ticketing-system] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-12-12T04:00:32.596+05:30  INFO 203834 --- [event-ticketing-system] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 900 ms
+2024-12-12T04:00:32.690+05:30  INFO 203834 --- [event-ticketing-system] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-12-12T04:00:32.718+05:30  INFO 203834 --- [event-ticketing-system] [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.2.Final
+2024-12-12T04:00:32.735+05:30  INFO 203834 --- [event-ticketing-system] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-12-12T04:00:32.895+05:30  INFO 203834 --- [event-ticketing-system] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-12-12T04:00:32.917+05:30  INFO 203834 --- [event-ticketing-system] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-12-12T04:00:33.134+05:30  INFO 203834 --- [event-ticketing-system] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@e2978e2
+2024-12-12T04:00:33.137+05:30  INFO 203834 --- [event-ticketing-system] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-12-12T04:00:33.173+05:30  WARN 203834 --- [event-ticketing-system] [restartedMain] o.h.e.j.e.i.JdbcEnvironmentInitiator     : HHH000339: Could not obtain connection metadata: java.sql.SQLSyntaxErrorException: Unknown column 'RESERVED' in 'WHERE'
+2024-12-12T04:00:33.182+05:30  WARN 203834 --- [event-ticketing-system] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-12-12T04:00:33.192+05:30  INFO 203834 --- [event-ticketing-system] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2024-12-12T04:00:33.699+05:30  INFO 203834 --- [event-ticketing-system] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-12-12T04:00:33.809+05:30  INFO 203834 --- [event-ticketing-system] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-12-12T04:00:34.095+05:30  INFO 203834 --- [event-ticketing-system] [restartedMain] n.t.e.s.impl.ConfigurationServiceImpl    : successfully load the configuration list from database
+2024-12-12T04:00:34.100+05:30  INFO 203834 --- [event-ticketing-system] [restartedMain] n.t.e.service.TicketOperation            : Configurations initialized successfully.
+2024-12-12T04:00:34.153+05:30  WARN 203834 --- [event-ticketing-system] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-12-12T04:00:34.353+05:30  INFO 203834 --- [event-ticketing-system] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2024-12-12T04:00:34.370+05:30  INFO 203834 --- [event-ticketing-system] [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler     : Starting...
+2024-12-12T04:00:34.370+05:30  INFO 203834 --- [event-ticketing-system] [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=true, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@702367eb]]
+2024-12-12T04:00:34.371+05:30  INFO 203834 --- [event-ticketing-system] [restartedMain] o.s.m.s.b.SimpleBrokerMessageHandler     : Started.
+2024-12-12T04:00:34.379+05:30  INFO 203834 --- [event-ticketing-system] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-12-12T04:00:34.386+05:30  INFO 203834 --- [event-ticketing-system] [restartedMain] n.t.e.EventTicketingSystemApplication    : Started EventTicketingSystemApplication in 3.169 seconds (process running for 3.726)
+2024-12-12T04:01:34.369+05:30  INFO 203834 --- [event-ticketing-system] [MessageBroker-1] o.s.w.s.c.WebSocketMessageBrokerStats    : WebSocketSession[0 current WS(0)-HttpStream(0)-HttpPoll(0), 0 total, 0 closed abnormally (0 connect failure, 0 send limit, 0 transport error)], stompSubProtocol[processed CONNECT(0)-CONNECTED(0)-DISCONNECT(0)], stompBrokerRelay[null], inboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], outboundChannel[pool size = 0, active threads = 0, queued tasks = 0, completed tasks = 0], sockJsScheduler[pool size = 1, active threads = 1, queued tasks = 0, completed tasks = 0]
+2024-12-12T04:18:43.868+05:30  INFO 203834 --- [event-ticketing-system] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2024-12-12T04:18:43.874+05:30  INFO 203834 --- [event-ticketing-system] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2024-12-12T04:18:43.877+05:30  INFO 203834 --- [event-ticketing-system] [SpringApplicationShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : Stopping...
+2024-12-12T04:18:43.877+05:30  INFO 203834 --- [event-ticketing-system] [SpringApplicationShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : BrokerAvailabilityEvent[available=false, SimpleBrokerMessageHandler [org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry@702367eb]]
+2024-12-12T04:18:43.878+05:30  INFO 203834 --- [event-ticketing-system] [SpringApplicationShutdownHook] o.s.m.s.b.SimpleBrokerMessageHandler     : Stopped.
+2024-12-12T04:18:43.882+05:30  INFO 203834 --- [event-ticketing-system] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-12-12T04:18:43.886+05:30  INFO 203834 --- [event-ticketing-system] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-12-12T04:18:43.896+05:30  INFO 203834 --- [event-ticketing-system] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
